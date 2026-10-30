@@ -1,0 +1,1615 @@
+{
+  "artifacts": [
+    {
+      "bytes": 43492,
+      "path": "scenes/fixtures/author.py",
+      "sha256": "308326f6199cfd839a794d9cf9ebe9d6f87834d46f4a45c37a1b835ef8bad96f"
+    },
+    {
+      "bytes": 529505,
+      "path": "scenes/fixtures/sky.hdr",
+      "sha256": "0862853ab2efb3a8490c4db670b26896544b6c5b88e08109cdd519d47d4ced3d"
+    },
+    {
+      "bytes": 180384,
+      "path": "scenes/fixtures/export_contract.glb",
+      "sha256": "c7438c02fe639e46467409c3ca9bb558f14133c399d0bb3233c17903a3a56990"
+    },
+    {
+      "bytes": 15184,
+      "path": "scenes/fixtures/export_contract.gltf",
+      "sha256": "86f127440939cd230704cd887b8287d667a7b7ba1cdb8a5765e0850e769035f3"
+    },
+    {
+      "bytes": 57828,
+      "path": "scenes/fixtures/export_contract.bin",
+      "sha256": "ef7ccd73b049eb9859a4efb26317ccad65cd0738080ab1e1628315f48906fdae"
+    },
+    {
+      "bytes": 1416,
+      "path": "scenes/fixtures/textures/emissive_bars.png",
+      "sha256": "a82552077a4e9a0a32a43935a90e7d0e403a08132186633121eadc932dced1b7"
+    },
+    {
+      "bytes": 9379,
+      "path": "scenes/fixtures/textures/foliage_mask.png",
+      "sha256": "34018b50940e980cbf62172334cf3580d61aae15cc2e1d672ba9f8805741aba8"
+    },
+    {
+      "bytes": 27894,
+      "path": "scenes/fixtures/textures/metal_roughness.png",
+      "sha256": "8a9474381348d4f6f3760698fd429d06831a58e36c573bd3318df29d6da0e055"
+    },
+    {
+      "bytes": 71156,
+      "path": "scenes/fixtures/textures/ripple_normal.png",
+      "sha256": "0c9d1cae3692151c2900caaf241d5bb0bbdba067a4b48130138b3ee1cf8f61bc"
+    },
+    {
+      "bytes": 1574,
+      "path": "scenes/fixtures/textures/uv_grid.png",
+      "sha256": "8662523322d24ba856290e3076cce503900d12e7bbf2b90ccc984c0709f8abbf"
+    }
+  ],
+  "blender": {
+    "binary": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "build_date": "2026-09-15",
+    "build_hash": "d13f752e3b9c",
+    "commit_date": "2026-09-14",
+    "exporter_source_directory": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2",
+    "exporter_source_sha256": {
+      "__init__.py": "2d7d0b016f750dfd9ddfa3bfceb8cc3f00a955e2611a5fdb53f873e01eb9235e",
+      "blender/com/conversion.py": "a9007860d8763746d30c358e5181a4fb6f36f83c13c2f3ed5a21143a3c322e71",
+      "blender/exp/lights.py": "431e02f42711de7dbbd896b564a7aca18987c28d0a6b625665dffd15a0ff6446",
+      "blender/exp/material/extensions/volume.py": "2cd78d2f57378bca83ae54eda6d1b8bfe1d46d2608b9318c954528a68390a2bb",
+      "blender/exp/material/materials.py": "a989eb504c3d5c51fbb0c8c32c6ae312e73272f3067628b47939157296c16885",
+      "blender/exp/material/search_node_tree.py": "0c037d078db37da3b6d65054206a9f55d19fa5f8ca6542f5add614230c39f7e9",
+      "blender/exp/sampler.py": "5dd98f868e7f0942559dab0f21391727a9a8f04548dc43ec36deb49a95628fb3"
+    },
+    "gltf_generator": "Khronos glTF Blender I/O v5.2.40",
+    "version": "5.2.2 LTS",
+    "version_tuple": [
+      5,
+      2,
+      2
+    ]
+  },
+  "deferred_harbor": {
+    "machine": "6 cores / 12 logical / 8 GB RAM",
+    "maximum_material_map_dimension": 2048,
+    "status": "IMPORT_PARITY_PASSED",
+    "triangle_budget": [
+      200000,
+      350000
+    ],
+    "visual_composition": "Dominant cream gaff sailboat left; receding waterfront and distant tall tower; steep large half-timbered building right; curved stone quay foreground; turquoise closed rippled water; foliage, shingles, windows, chimneys, docks, small boats, birds and props. Organic silhouettes, not placeholder boxes."
+  },
+  "environment": {
+    "decoded_by": "Blender image loader (not rendered)",
+    "encoding": "Radiance RGBE; -Y +X; linear RGB",
+    "has_sun_disk": false,
+    "height": 256,
+    "intensity": 1.0,
+    "path": "scenes/fixtures/sky.hdr",
+    "rotation_degrees": 0.0,
+    "source_channel_range": [
+      0.045,
+      2.7
+    ],
+    "u": "atan2(direction.z,direction.x)/(2*pi)+0.5",
+    "v": "acos(direction.y)/pi",
+    "width": 512,
+    "world_up": "+Y"
+  },
+  "export_arguments": [
+    {
+      "check_existing": false,
+      "export_active_vertex_color_when_no_material": false,
+      "export_all_vertex_colors": false,
+      "export_animations": false,
+      "export_apply": true,
+      "export_attributes": false,
+      "export_cameras": true,
+      "export_copyright": "Original CPUrenderer fixture assets dedicated to CC0-1.0; https://creativecommons.org/publicdomain/zero/1.0/",
+      "export_draco_mesh_compression_enable": false,
+      "export_extras": false,
+      "export_format": "GLB",
+      "export_gpu_instances": false,
+      "export_hierarchy_flatten_objs": false,
+      "export_hierarchy_full_collections": false,
+      "export_image_add_webp": false,
+      "export_image_format": "AUTO",
+      "export_image_webp_fallback": false,
+      "export_import_convert_lighting_mode": "SPEC",
+      "export_keep_originals": false,
+      "export_lights": true,
+      "export_materials": "EXPORT",
+      "export_meshopt_compression_enable": false,
+      "export_morph": false,
+      "export_normals": true,
+      "export_pointer_animation": false,
+      "export_skins": false,
+      "export_tangents": true,
+      "export_texcoords": true,
+      "export_texture_dir": "textures",
+      "export_unused_images": false,
+      "export_unused_textures": false,
+      "export_use_gltfpack": false,
+      "export_vertex_color": "NONE",
+      "export_yup": true,
+      "filepath": "C:\\Users\\FuadFaruk\\Desktop\\Codex Projects\\CPUrenderer\\scenes\\fixtures\\export_contract.glb",
+      "use_active_scene": true,
+      "use_mesh_edges": false,
+      "use_mesh_vertices": false,
+      "use_selection": false,
+      "will_save_settings": false
+    },
+    {
+      "check_existing": false,
+      "export_active_vertex_color_when_no_material": false,
+      "export_all_vertex_colors": false,
+      "export_animations": false,
+      "export_apply": true,
+      "export_attributes": false,
+      "export_cameras": true,
+      "export_copyright": "Original CPUrenderer fixture assets dedicated to CC0-1.0; https://creativecommons.org/publicdomain/zero/1.0/",
+      "export_draco_mesh_compression_enable": false,
+      "export_extras": false,
+      "export_format": "GLTF_SEPARATE",
+      "export_gpu_instances": false,
+      "export_hierarchy_flatten_objs": false,
+      "export_hierarchy_full_collections": false,
+      "export_image_add_webp": false,
+      "export_image_format": "AUTO",
+      "export_image_webp_fallback": false,
+      "export_import_convert_lighting_mode": "SPEC",
+      "export_keep_originals": false,
+      "export_lights": true,
+      "export_materials": "EXPORT",
+      "export_meshopt_compression_enable": false,
+      "export_morph": false,
+      "export_normals": true,
+      "export_pointer_animation": false,
+      "export_skins": false,
+      "export_tangents": true,
+      "export_texcoords": true,
+      "export_texture_dir": "textures",
+      "export_unused_images": false,
+      "export_unused_textures": false,
+      "export_use_gltfpack": false,
+      "export_vertex_color": "NONE",
+      "export_yup": true,
+      "filepath": "C:\\Users\\FuadFaruk\\Desktop\\Codex Projects\\CPUrenderer\\scenes\\fixtures\\export_contract.gltf",
+      "use_active_scene": true,
+      "use_mesh_edges": false,
+      "use_mesh_vertices": false,
+      "use_selection": false,
+      "will_save_settings": false
+    }
+  ],
+  "fixture": [
+    {
+      "all_primitives_indexed": true,
+      "camera": {
+        "name": "Reference",
+        "perspective": {
+          "aspectRatio": 1.7777777777777777,
+          "yfov": 0.4958353284296838,
+          "zfar": 200,
+          "znear": 0.05000000074505806
+        },
+        "type": "perspective"
+      },
+      "counts": {
+        "cameras": 1,
+        "images": 5,
+        "materials": 7,
+        "meshes": 7,
+        "nodes": 11,
+        "primitives": 7,
+        "punctual_lights": 2,
+        "samplers": 4,
+        "scenes": 1,
+        "textures": 6,
+        "triangles": 1602
+      },
+      "extensions_required": [
+        "KHR_texture_transform",
+        "KHR_lights_punctual"
+      ],
+      "extensions_used": [
+        "KHR_lights_punctual",
+        "KHR_materials_emissive_strength",
+        "KHR_materials_ior",
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_texture_transform"
+      ],
+      "generator": "Khronos glTF Blender I/O v5.2.40",
+      "images": [
+        {
+          "height": 256,
+          "name": "uv_grid",
+          "sha256": "8662523322d24ba856290e3076cce503900d12e7bbf2b90ccc984c0709f8abbf",
+          "width": 256
+        },
+        {
+          "height": 128,
+          "name": "emissive_bars",
+          "sha256": "a82552077a4e9a0a32a43935a90e7d0e403a08132186633121eadc932dced1b7",
+          "width": 128
+        },
+        {
+          "height": 256,
+          "name": "foliage_mask",
+          "sha256": "34018b50940e980cbf62172334cf3580d61aae15cc2e1d672ba9f8805741aba8",
+          "width": 256
+        },
+        {
+          "height": 256,
+          "name": "metal_roughness",
+          "sha256": "8a9474381348d4f6f3760698fd429d06831a58e36c573bd3318df29d6da0e055",
+          "width": 256
+        },
+        {
+          "height": 256,
+          "name": "ripple_normal",
+          "sha256": "0c9d1cae3692151c2900caaf241d5bb0bbdba067a4b48130138b3ee1cf8f61bc",
+          "width": 256
+        }
+      ],
+      "lights": [
+        {
+          "color": [
+            0.7200000286102295,
+            0.8399999737739563,
+            1
+          ],
+          "intensity": 69.99999969017048,
+          "name": "Point_Fill",
+          "type": "point"
+        },
+        {
+          "color": [
+            1,
+            0.9100000262260437,
+            0.7699999809265137
+          ],
+          "intensity": 2.999999920837581,
+          "name": "Sun_Key",
+          "type": "directional"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Diffuse_UVGrid",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "extensions": {
+                "KHR_texture_transform": {
+                  "offset": [
+                    -0.2460703836853188,
+                    -0.322800335553437
+                  ],
+                  "rotation": 0.3100000023841858,
+                  "scale": [
+                    1.600000023841858,
+                    1.2000000476837158
+                  ]
+                }
+              },
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7200000286102295
+          }
+        },
+        {
+          "emissiveFactor": [
+            1,
+            1,
+            1
+          ],
+          "emissiveTexture": {
+            "index": 1
+          },
+          "extensions": {
+            "KHR_materials_emissive_strength": {
+              "emissiveStrength": 6
+            }
+          },
+          "name": "Emissive_Map",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.03500000014901161,
+              0.03500000014901161,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6000000238418579
+          }
+        },
+        {
+          "alphaCutoff": 0.41999998688697815,
+          "alphaMode": "MASK",
+          "doubleSided": true,
+          "name": "Foliage_MASK",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 2
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8299999833106995
+          }
+        },
+        {
+          "name": "Ground_Diffuse",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.20000000298023224,
+              0.2199999988079071,
+              0.23999999463558197,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        },
+        {
+          "name": "Metal_Roughness",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6600000262260437,
+              0.4699999988079071,
+              0.2199999988079071,
+              1
+            ],
+            "metallicRoughnessTexture": {
+              "index": 3
+            }
+          }
+        },
+        {
+          "name": "Normal_Mirrored",
+          "normalTexture": {
+            "index": 4,
+            "scale": 0.8999999761581421
+          },
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.2199999988079071,
+              0.3799999952316284,
+              0.550000011920929,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.27000001072883606
+          }
+        },
+        {
+          "doubleSided": false,
+          "extensions": {
+            "KHR_materials_ior": {
+              "ior": 1.3329999446868896
+            },
+            "KHR_materials_transmission": {
+              "transmissionFactor": 1
+            },
+            "KHR_materials_volume": {
+              "attenuationColor": [
+                0.20000000298023224,
+                0.7200000286102295,
+                0.8100000023841858
+              ],
+              "attenuationDistance": 2.9999999105930355,
+              "thicknessFactor": 0.800000011920929
+            }
+          },
+          "name": "Water_Volume",
+          "normalTexture": {
+            "index": 5,
+            "scale": 0.3499999940395355
+          },
+          "pbrMetallicRoughness": {
+            "metallicFactor": 0,
+            "roughnessFactor": 0.10999999940395355
+          }
+        }
+      ],
+      "meshes": [
+        {
+          "name": "Diffuse_Probe",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.999999463558197,
+                  -1.0,
+                  -1.0
+                ],
+                [
+                  0.9999998211860657,
+                  1.0,
+                  0.9999997019767761
+                ]
+              ],
+              "material": "Diffuse_UVGrid",
+              "tangent_w_counts": {
+                "1.0": 323
+              },
+              "triangles": 528,
+              "vertices": 323
+            }
+          ]
+        },
+        {
+          "name": "Emissive_Panel",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.75,
+                  -0.4000000059604645,
+                  -0.0
+                ],
+                [
+                  0.75,
+                  0.4000000059604645,
+                  -0.0
+                ]
+              ],
+              "material": "Emissive_Map",
+              "tangent_w_counts": {
+                "1.0": 4
+              },
+              "triangles": 2,
+              "vertices": 4
+            }
+          ]
+        },
+        {
+          "name": "Foliage_Card",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.8999999761581421,
+                  -1.25,
+                  -0.0
+                ],
+                [
+                  0.8999999761581421,
+                  1.25,
+                  -0.0
+                ]
+              ],
+              "material": "Foliage_MASK",
+              "tangent_w_counts": {
+                "1.0": 4
+              },
+              "triangles": 2,
+              "vertices": 4
+            }
+          ]
+        },
+        {
+          "name": "Ground",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -7.0,
+                  -0.05000000074505806,
+                  -6.0
+                ],
+                [
+                  7.0,
+                  -0.05000000074505806,
+                  5.0
+                ]
+              ],
+              "material": "Ground_Diffuse",
+              "tangent_w_counts": {
+                "1.0": 4
+              },
+              "triangles": 2,
+              "vertices": 4
+            }
+          ]
+        },
+        {
+          "name": "Metal_Probe",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.999999463558197,
+                  -1.0,
+                  -1.0
+                ],
+                [
+                  0.9999998211860657,
+                  1.0,
+                  0.9999997019767761
+                ]
+              ],
+              "material": "Metal_Roughness",
+              "tangent_w_counts": {
+                "1.0": 323
+              },
+              "triangles": 528,
+              "vertices": 323
+            }
+          ]
+        },
+        {
+          "name": "Mirrored_Nonuniform",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.999999463558197,
+                  -1.0,
+                  -1.0
+                ],
+                [
+                  0.9999998211860657,
+                  1.0,
+                  0.9999997019767761
+                ]
+              ],
+              "material": "Normal_Mirrored",
+              "tangent_w_counts": {
+                "1.0": 323
+              },
+              "triangles": 528,
+              "vertices": 323
+            }
+          ]
+        },
+        {
+          "name": "Water_Closed_Box",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -1.7000000476837158,
+                  -0.4000000059604645,
+                  -1.0499999523162842
+                ],
+                [
+                  1.7000000476837158,
+                  0.4000000059604645,
+                  1.0499999523162842
+                ]
+              ],
+              "material": "Water_Volume",
+              "tangent_w_counts": {
+                "1.0": 24
+              },
+              "triangles": 12,
+              "vertices": 24
+            }
+          ]
+        }
+      ],
+      "mirror_probe": {
+        "determinant": -0.6077500581741333,
+        "node": "Mirrored_Nonuniform",
+        "reverse_triangle_winding": true,
+        "vertex_index": 0,
+        "world_matrix_rows": [
+          [
+            -0.8185372948646545,
+            0.2896779179573059,
+            0.03739585354924202,
+            1.5731366872787476
+          ],
+          [
+            0.20234942436218262,
+            1.0240837335586548,
+            -0.1798926591873169,
+            1.2905330657958984
+          ],
+          [
+            0.1074773520231247,
+            0.27809959650039673,
+            0.6234903335571289,
+            -1.0508801937103271
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_normal": [
+          0.26334354281425476,
+          0.9309852123260498,
+          0.2528177797794342
+        ],
+        "world_position": [
+          1.8628146648406982,
+          2.3146166801452637,
+          -0.7727805972099304
+        ],
+        "world_tangent": [
+          -0.10666190832853317,
+          -0.23236262798309326,
+          0.9667630791664124,
+          -1.0
+        ]
+      },
+      "path": "scenes/fixtures/export_contract.glb",
+      "samplers": [
+        {
+          "magFilter": 9728,
+          "minFilter": 9984,
+          "wrapS": 33648,
+          "wrapT": 33648
+        },
+        {
+          "magFilter": 9729,
+          "minFilter": 9987,
+          "wrapS": 33071,
+          "wrapT": 33071
+        },
+        {
+          "magFilter": 9728,
+          "minFilter": 9984,
+          "wrapS": 33071,
+          "wrapT": 33071
+        },
+        {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      ],
+      "semantic_sha256": "682dc58b9a724f574c917e5d4a7ff8d6920dac73f3068e78f20e2eda742e58da",
+      "sparse_accessors": false,
+      "uv_sets": [
+        0
+      ],
+      "water_topology": {
+        "closed_oriented_manifold": true,
+        "dimensions_m": [
+          3.4,
+          2.1,
+          0.8
+        ],
+        "edges": 18,
+        "signed_volume_m3": 5.7119998931884775,
+        "welded_vertices": 8
+      }
+    },
+    {
+      "all_primitives_indexed": true,
+      "camera": {
+        "name": "Reference",
+        "perspective": {
+          "aspectRatio": 1.7777777777777777,
+          "yfov": 0.4958353284296838,
+          "zfar": 200,
+          "znear": 0.05000000074505806
+        },
+        "type": "perspective"
+      },
+      "counts": {
+        "cameras": 1,
+        "images": 5,
+        "materials": 7,
+        "meshes": 7,
+        "nodes": 11,
+        "primitives": 7,
+        "punctual_lights": 2,
+        "samplers": 4,
+        "scenes": 1,
+        "textures": 6,
+        "triangles": 1602
+      },
+      "extensions_required": [
+        "KHR_texture_transform",
+        "KHR_lights_punctual"
+      ],
+      "extensions_used": [
+        "KHR_lights_punctual",
+        "KHR_materials_emissive_strength",
+        "KHR_materials_ior",
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_texture_transform"
+      ],
+      "generator": "Khronos glTF Blender I/O v5.2.40",
+      "images": [
+        {
+          "height": 256,
+          "name": "uv_grid",
+          "sha256": "8662523322d24ba856290e3076cce503900d12e7bbf2b90ccc984c0709f8abbf",
+          "width": 256
+        },
+        {
+          "height": 128,
+          "name": "emissive_bars",
+          "sha256": "a82552077a4e9a0a32a43935a90e7d0e403a08132186633121eadc932dced1b7",
+          "width": 128
+        },
+        {
+          "height": 256,
+          "name": "foliage_mask",
+          "sha256": "34018b50940e980cbf62172334cf3580d61aae15cc2e1d672ba9f8805741aba8",
+          "width": 256
+        },
+        {
+          "height": 256,
+          "name": "metal_roughness",
+          "sha256": "8a9474381348d4f6f3760698fd429d06831a58e36c573bd3318df29d6da0e055",
+          "width": 256
+        },
+        {
+          "height": 256,
+          "name": "ripple_normal",
+          "sha256": "0c9d1cae3692151c2900caaf241d5bb0bbdba067a4b48130138b3ee1cf8f61bc",
+          "width": 256
+        }
+      ],
+      "lights": [
+        {
+          "color": [
+            0.7200000286102295,
+            0.8399999737739563,
+            1
+          ],
+          "intensity": 69.99999969017048,
+          "name": "Point_Fill",
+          "type": "point"
+        },
+        {
+          "color": [
+            1,
+            0.9100000262260437,
+            0.7699999809265137
+          ],
+          "intensity": 2.999999920837581,
+          "name": "Sun_Key",
+          "type": "directional"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Diffuse_UVGrid",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "extensions": {
+                "KHR_texture_transform": {
+                  "offset": [
+                    -0.2460703836853188,
+                    -0.322800335553437
+                  ],
+                  "rotation": 0.3100000023841858,
+                  "scale": [
+                    1.600000023841858,
+                    1.2000000476837158
+                  ]
+                }
+              },
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7200000286102295
+          }
+        },
+        {
+          "emissiveFactor": [
+            1,
+            1,
+            1
+          ],
+          "emissiveTexture": {
+            "index": 1
+          },
+          "extensions": {
+            "KHR_materials_emissive_strength": {
+              "emissiveStrength": 6
+            }
+          },
+          "name": "Emissive_Map",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.03500000014901161,
+              0.03500000014901161,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6000000238418579
+          }
+        },
+        {
+          "alphaCutoff": 0.41999998688697815,
+          "alphaMode": "MASK",
+          "doubleSided": true,
+          "name": "Foliage_MASK",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 2
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8299999833106995
+          }
+        },
+        {
+          "name": "Ground_Diffuse",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.20000000298023224,
+              0.2199999988079071,
+              0.23999999463558197,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        },
+        {
+          "name": "Metal_Roughness",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6600000262260437,
+              0.4699999988079071,
+              0.2199999988079071,
+              1
+            ],
+            "metallicRoughnessTexture": {
+              "index": 3
+            }
+          }
+        },
+        {
+          "name": "Normal_Mirrored",
+          "normalTexture": {
+            "index": 4,
+            "scale": 0.8999999761581421
+          },
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.2199999988079071,
+              0.3799999952316284,
+              0.550000011920929,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.27000001072883606
+          }
+        },
+        {
+          "doubleSided": false,
+          "extensions": {
+            "KHR_materials_ior": {
+              "ior": 1.3329999446868896
+            },
+            "KHR_materials_transmission": {
+              "transmissionFactor": 1
+            },
+            "KHR_materials_volume": {
+              "attenuationColor": [
+                0.20000000298023224,
+                0.7200000286102295,
+                0.8100000023841858
+              ],
+              "attenuationDistance": 2.9999999105930355,
+              "thicknessFactor": 0.800000011920929
+            }
+          },
+          "name": "Water_Volume",
+          "normalTexture": {
+            "index": 5,
+            "scale": 0.3499999940395355
+          },
+          "pbrMetallicRoughness": {
+            "metallicFactor": 0,
+            "roughnessFactor": 0.10999999940395355
+          }
+        }
+      ],
+      "meshes": [
+        {
+          "name": "Diffuse_Probe",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.999999463558197,
+                  -1.0,
+                  -1.0
+                ],
+                [
+                  0.9999998211860657,
+                  1.0,
+                  0.9999997019767761
+                ]
+              ],
+              "material": "Diffuse_UVGrid",
+              "tangent_w_counts": {
+                "1.0": 323
+              },
+              "triangles": 528,
+              "vertices": 323
+            }
+          ]
+        },
+        {
+          "name": "Emissive_Panel",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.75,
+                  -0.4000000059604645,
+                  -0.0
+                ],
+                [
+                  0.75,
+                  0.4000000059604645,
+                  -0.0
+                ]
+              ],
+              "material": "Emissive_Map",
+              "tangent_w_counts": {
+                "1.0": 4
+              },
+              "triangles": 2,
+              "vertices": 4
+            }
+          ]
+        },
+        {
+          "name": "Foliage_Card",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.8999999761581421,
+                  -1.25,
+                  -0.0
+                ],
+                [
+                  0.8999999761581421,
+                  1.25,
+                  -0.0
+                ]
+              ],
+              "material": "Foliage_MASK",
+              "tangent_w_counts": {
+                "1.0": 4
+              },
+              "triangles": 2,
+              "vertices": 4
+            }
+          ]
+        },
+        {
+          "name": "Ground",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -7.0,
+                  -0.05000000074505806,
+                  -6.0
+                ],
+                [
+                  7.0,
+                  -0.05000000074505806,
+                  5.0
+                ]
+              ],
+              "material": "Ground_Diffuse",
+              "tangent_w_counts": {
+                "1.0": 4
+              },
+              "triangles": 2,
+              "vertices": 4
+            }
+          ]
+        },
+        {
+          "name": "Metal_Probe",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.999999463558197,
+                  -1.0,
+                  -1.0
+                ],
+                [
+                  0.9999998211860657,
+                  1.0,
+                  0.9999997019767761
+                ]
+              ],
+              "material": "Metal_Roughness",
+              "tangent_w_counts": {
+                "1.0": 323
+              },
+              "triangles": 528,
+              "vertices": 323
+            }
+          ]
+        },
+        {
+          "name": "Mirrored_Nonuniform",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -0.999999463558197,
+                  -1.0,
+                  -1.0
+                ],
+                [
+                  0.9999998211860657,
+                  1.0,
+                  0.9999997019767761
+                ]
+              ],
+              "material": "Normal_Mirrored",
+              "tangent_w_counts": {
+                "1.0": 323
+              },
+              "triangles": 528,
+              "vertices": 323
+            }
+          ]
+        },
+        {
+          "name": "Water_Closed_Box",
+          "primitives": [
+            {
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0"
+              ],
+              "local_bounds": [
+                [
+                  -1.7000000476837158,
+                  -0.4000000059604645,
+                  -1.0499999523162842
+                ],
+                [
+                  1.7000000476837158,
+                  0.4000000059604645,
+                  1.0499999523162842
+                ]
+              ],
+              "material": "Water_Volume",
+              "tangent_w_counts": {
+                "1.0": 24
+              },
+              "triangles": 12,
+              "vertices": 24
+            }
+          ]
+        }
+      ],
+      "mirror_probe": {
+        "determinant": -0.6077500581741333,
+        "node": "Mirrored_Nonuniform",
+        "reverse_triangle_winding": true,
+        "vertex_index": 0,
+        "world_matrix_rows": [
+          [
+            -0.8185372948646545,
+            0.2896779179573059,
+            0.03739585354924202,
+            1.5731366872787476
+          ],
+          [
+            0.20234942436218262,
+            1.0240837335586548,
+            -0.1798926591873169,
+            1.2905330657958984
+          ],
+          [
+            0.1074773520231247,
+            0.27809959650039673,
+            0.6234903335571289,
+            -1.0508801937103271
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_normal": [
+          0.26334354281425476,
+          0.9309852123260498,
+          0.2528177797794342
+        ],
+        "world_position": [
+          1.8628146648406982,
+          2.3146166801452637,
+          -0.7727805972099304
+        ],
+        "world_tangent": [
+          -0.10666190832853317,
+          -0.23236262798309326,
+          0.9667630791664124,
+          -1.0
+        ]
+      },
+      "path": "scenes/fixtures/export_contract.gltf",
+      "samplers": [
+        {
+          "magFilter": 9728,
+          "minFilter": 9984,
+          "wrapS": 33648,
+          "wrapT": 33648
+        },
+        {
+          "magFilter": 9729,
+          "minFilter": 9987,
+          "wrapS": 33071,
+          "wrapT": 33071
+        },
+        {
+          "magFilter": 9728,
+          "minFilter": 9984,
+          "wrapS": 33071,
+          "wrapT": 33071
+        },
+        {
+          "magFilter": 9729,
+          "minFilter": 9987
+        }
+      ],
+      "semantic_sha256": "682dc58b9a724f574c917e5d4a7ff8d6920dac73f3068e78f20e2eda742e58da",
+      "sparse_accessors": false,
+      "uv_sets": [
+        0
+      ],
+      "water_topology": {
+        "closed_oriented_manifold": true,
+        "dimensions_m": [
+          3.4,
+          2.1,
+          0.8
+        ],
+        "edges": 18,
+        "signed_volume_m3": 5.7119998931884775,
+        "welded_vertices": 8
+      }
+    }
+  ],
+  "fixture_preservation": {
+    "binary_exports_regenerated": false,
+    "gate_evidence": "User reports 318852 parity checks, all six Release CTests, visually verified 480x270 CPU render at 64 spp.",
+    "sky_sha256_unchanged": true
+  },
+  "installed_option_evidence": {
+    "check_existing": {
+      "default": true,
+      "description": "Check and warn on overwriting existing files",
+      "type": "BOOLEAN"
+    },
+    "export_active_vertex_color_when_no_material": {
+      "default": true,
+      "description": "When there is no material on object, export active vertex color",
+      "type": "BOOLEAN"
+    },
+    "export_all_vertex_colors": {
+      "default": true,
+      "description": "Export all vertex colors, even if not used by any material. If no Vertex Color is used in the mesh materials, a fake COLOR_0 will be created, in order to keep material unchanged",
+      "type": "BOOLEAN"
+    },
+    "export_animations": {
+      "default": true,
+      "description": "Exports active actions and NLA tracks as glTF animations",
+      "type": "BOOLEAN"
+    },
+    "export_apply": {
+      "default": false,
+      "description": "Apply modifiers (excluding Armatures) to mesh objects -WARNING: prevents exporting shape keys",
+      "type": "BOOLEAN"
+    },
+    "export_attributes": {
+      "default": false,
+      "description": "Export Attributes (when starting with underscore)",
+      "type": "BOOLEAN"
+    },
+    "export_cameras": {
+      "default": false,
+      "description": "Export cameras",
+      "type": "BOOLEAN"
+    },
+    "export_copyright": {
+      "default": "",
+      "description": "Legal rights and conditions for the model",
+      "type": "STRING"
+    },
+    "export_draco_mesh_compression_enable": {
+      "default": false,
+      "description": "Compress mesh using Draco",
+      "type": "BOOLEAN"
+    },
+    "export_extras": {
+      "default": false,
+      "description": "Export custom properties as glTF extras",
+      "type": "BOOLEAN"
+    },
+    "export_format": {
+      "choices": [
+        "GLB",
+        "GLTF_SEPARATE"
+      ],
+      "verified_via": "installed get_format_items callback and two actual exports"
+    },
+    "export_gpu_instances": {
+      "default": false,
+      "description": "Export using EXT_mesh_gpu_instancing. Limited to children of a given Empty. Multiple materials might be omitted",
+      "type": "BOOLEAN"
+    },
+    "export_hierarchy_flatten_objs": {
+      "default": false,
+      "description": "Flatten Object Hierarchy. Useful in case of non decomposable transformation matrix",
+      "type": "BOOLEAN"
+    },
+    "export_hierarchy_full_collections": {
+      "default": false,
+      "description": "Export full hierarchy, including intermediate collections",
+      "type": "BOOLEAN"
+    },
+    "export_image_add_webp": {
+      "default": false,
+      "description": "Creates WebP textures for every texture. For already WebP textures, nothing happens",
+      "type": "BOOLEAN"
+    },
+    "export_image_format": {
+      "choices": [
+        "AUTO",
+        "JPEG",
+        "WEBP",
+        "NONE"
+      ],
+      "default": "AUTO",
+      "description": "Output format for images. PNG is lossless and generally preferred, but JPEG might be preferable for web applications due to the smaller file size. Alternatively they can be omitted if they are not needed",
+      "type": "ENUM"
+    },
+    "export_image_webp_fallback": {
+      "default": false,
+      "description": "For all WebP textures, create a PNG fallback texture",
+      "type": "BOOLEAN"
+    },
+    "export_import_convert_lighting_mode": {
+      "choices": [
+        "SPEC",
+        "COMPAT",
+        "RAW"
+      ],
+      "default": "SPEC",
+      "description": "Optional backwards compatibility for non-standard render engines. Applies to lights",
+      "type": "ENUM"
+    },
+    "export_keep_originals": {
+      "default": false,
+      "description": "Keep original textures files if possible. WARNING: if you use more than one texture, where pbr standard requires only one, only one texture will be used. This can lead to unexpected results",
+      "type": "BOOLEAN"
+    },
+    "export_lights": {
+      "default": false,
+      "description": "Export directional, point, and spot lights. Uses \"KHR_lights_punctual\" glTF extension",
+      "type": "BOOLEAN"
+    },
+    "export_materials": {
+      "choices": [
+        "EXPORT",
+        "PLACEHOLDER",
+        "VIEWPORT",
+        "NONE"
+      ],
+      "default": "EXPORT",
+      "description": "Export materials",
+      "type": "ENUM"
+    },
+    "export_meshopt_compression_enable": {
+      "default": false,
+      "description": "Compress mesh using Meshopt",
+      "type": "BOOLEAN"
+    },
+    "export_morph": {
+      "default": true,
+      "description": "Export shape keys (morph targets)",
+      "type": "BOOLEAN"
+    },
+    "export_normals": {
+      "default": true,
+      "description": "Export vertex normals with meshes",
+      "type": "BOOLEAN"
+    },
+    "export_pointer_animation": {
+      "default": false,
+      "description": "Export material, Light & Camera animation as Animation Pointer. Available only for baked animation mode 'NLA Tracks' and 'Scene'",
+      "type": "BOOLEAN"
+    },
+    "export_skins": {
+      "default": true,
+      "description": "Export skinning (armature) data",
+      "type": "BOOLEAN"
+    },
+    "export_tangents": {
+      "default": false,
+      "description": "Export vertex tangents with meshes",
+      "type": "BOOLEAN"
+    },
+    "export_texcoords": {
+      "default": true,
+      "description": "Export UVs (texture coordinates) with meshes",
+      "type": "BOOLEAN"
+    },
+    "export_texture_dir": {
+      "default": "",
+      "description": "Folder to place texture files in. Relative to the .gltf file",
+      "type": "STRING"
+    },
+    "export_unused_images": {
+      "default": false,
+      "description": "Export images not assigned to any material",
+      "type": "BOOLEAN"
+    },
+    "export_unused_textures": {
+      "default": false,
+      "description": "Export image texture nodes not assigned to any material. This feature is not standard and needs an external extension to be included in the glTF file",
+      "type": "BOOLEAN"
+    },
+    "export_use_gltfpack": {
+      "default": false,
+      "description": "Use gltfpack to simplify the mesh and/or compress its textures",
+      "type": "BOOLEAN"
+    },
+    "export_vertex_color": {
+      "choices": [
+        "MATERIAL",
+        "ACTIVE",
+        "NAME",
+        "NONE"
+      ],
+      "default": "MATERIAL",
+      "description": "How to export vertex color",
+      "type": "ENUM"
+    },
+    "export_yup": {
+      "default": true,
+      "description": "Export using glTF convention, +Y up",
+      "type": "BOOLEAN"
+    },
+    "use_active_scene": {
+      "default": false,
+      "description": "Export active scene only",
+      "type": "BOOLEAN"
+    },
+    "use_mesh_edges": {
+      "default": false,
+      "description": "Export loose edges as lines, using the material from the first material slot",
+      "type": "BOOLEAN"
+    },
+    "use_mesh_vertices": {
+      "default": false,
+      "description": "Export loose points as glTF points, using the material from the first material slot",
+      "type": "BOOLEAN"
+    },
+    "use_selection": {
+      "default": false,
+      "description": "Export selected objects only",
+      "type": "BOOLEAN"
+    },
+    "will_save_settings": {
+      "default": false,
+      "description": "Store glTF export settings in the Blender project",
+      "type": "BOOLEAN"
+    }
+  },
+  "known_contract_hazards": [
+    "Main verified actual CMake Release importer parity and a custom CPU render before detailed authoring; a regenerated fixture must be revalidated.",
+    "Blender 5.2.2 uses AUTO for PNG, with PNG source files. There is no export_image_format=PNG enum.",
+    "MASK is recognized from 1-(alpha<.42) nodes, not legacy blend_method. Alpha is linear even on an sRGB image.",
+    "Volume needs an unlinked glTF Material Output Thickness=.8 plus Occlusion metadata socket to avoid 5.2 inline-node pruning. No AO map is exported.",
+    "Volume attenuation color is linear (.2,.72,.81), attenuationDistance=3m, IOR=1.333, transmission=1. Thickness is a closed-body marker; integrate actual path lengths, not .8 at every hit.",
+    "Water doubleSided=false does not authorize culling refractive exits. Keep geometric orientation; camera is outside all volumes; volumes do not overlap anything.",
+    "Negative world determinant: reverse triangle winding, inverse-transpose normals, transform/orthogonalize tangents, multiply tangent.w by determinant sign.",
+    "Blender exports glTF +Y up and flips UV V. Do not flip decoded top-left PNG rows or glTF UVs again. UV transform is already converted by the exporter.",
+    "Sampler minification enums include mip filters, but only base-level images are supplied. Use their nearest/linear within-level behavior if no mip hierarchy exists.",
+    "Exporter reports multiple image-node sampler warnings for foliage RGBA and packed metallic/roughness. Both paths use identical sampler settings and exact original PNG byte hashes are asserted; no conflicting sampler is authored.",
+    "SPEC lights serialize to directional intensity 3 and point intensity 70; input Blender powers were calibrated by 683 and 4*pi. No sun disk exists in the HDR.",
+    "Fixture exercises only indexed packed accessors and TEXCOORD_0, not sparse/strided/non-indexed accessors, JPEG, missing frames, or malformed resources. Main owns those tests.",
+    "The sky is separate from glTF. Use rotation=0 and intensity=1, with the recorded Y-up equirectangular convention."
+  ],
+  "licenses": [
+    {
+      "dedication": "To the extent possible under law, the authors waive all copyright and related or neighboring rights in this original work under CC0 1.0 Universal. No warranty.",
+      "external_assets": [],
+      "origin": "Original analytical/procedural code authored in this workspace; no downloaded assets or sampled images",
+      "scope": "author.py and every generated fixture, map, mesh, material and HDR",
+      "spdx": "CC0-1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "scope": "Blender authoring tool (installed, not redistributed)",
+      "spdx": "GPL-3.0-or-later",
+      "url": "https://www.blender.org/about/license/"
+    },
+    {
+      "scope": "Installed glTF exporter API used, source inspected but not copied or redistributed",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/KhronosGroup/glTF-Blender-IO"
+    }
+  ],
+  "maps": [
+    {
+      "channels": "RGBA: red/green top, blue/gold bottom; white L at top left",
+      "color_space": "sRGB",
+      "coverage_at_cutoff_0_42": 1.0,
+      "decoded_alpha_range": [
+        1.0,
+        1.0
+      ],
+      "height": 256,
+      "path": "scenes/fixtures/textures/uv_grid.png",
+      "source_sha256": "8662523322d24ba856290e3076cce503900d12e7bbf2b90ccc984c0709f8abbf",
+      "width": 256
+    },
+    {
+      "channels": "R unused=1; G roughness=.16+.64*v; B metallic=.55+.45*u",
+      "color_space": "Non-Color",
+      "coverage_at_cutoff_0_42": 1.0,
+      "decoded_alpha_range": [
+        1.0,
+        1.0
+      ],
+      "height": 256,
+      "path": "scenes/fixtures/textures/metal_roughness.png",
+      "source_sha256": "8a9474381348d4f6f3760698fd429d06831a58e36c573bd3318df29d6da0e055",
+      "width": 256
+    },
+    {
+      "channels": "OpenGL tangent-space +Y normal; normalized analytic wave gradients",
+      "color_space": "Non-Color",
+      "coverage_at_cutoff_0_42": 1.0,
+      "decoded_alpha_range": [
+        1.0,
+        1.0
+      ],
+      "height": 256,
+      "path": "scenes/fixtures/textures/ripple_normal.png",
+      "source_sha256": "0c9d1cae3692151c2900caaf241d5bb0bbdba067a4b48130138b3ee1cf8f61bc",
+      "width": 256
+    },
+    {
+      "channels": "Original asymmetric warm bars, multiplied by emissiveStrength=6",
+      "color_space": "sRGB",
+      "coverage_at_cutoff_0_42": 1.0,
+      "decoded_alpha_range": [
+        1.0,
+        1.0
+      ],
+      "height": 128,
+      "path": "scenes/fixtures/textures/emissive_bars.png",
+      "source_sha256": "a82552077a4e9a0a32a43935a90e7d0e403a08132186633121eadc932dced1b7",
+      "width": 128
+    },
+    {
+      "channels": "RGB sRGB, alpha LINEAR; original elliptical leaves and stem, cutoff .42",
+      "color_space": "sRGB",
+      "coverage_at_cutoff_0_42": 0.3360595703125,
+      "decoded_alpha_range": [
+        0.0,
+        1.0
+      ],
+      "height": 256,
+      "path": "scenes/fixtures/textures/foliage_mask.png",
+      "source_sha256": "34018b50940e980cbf62172334cf3580d61aae15cc2e1d672ba9f8805741aba8",
+      "width": 256
+    }
+  ],
+  "not_a_delivered_render": true,
+  "reference_policy": "Visually inspected only. Authoring code never opens, samples, modifies, embeds or hashes Reference.png.",
+  "renderer_import_parity": "VERIFIED_BY_MAIN",
+  "run_command_powershell": "& \"C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe\" --background --factory-startup --python-exit-code 1 --python \"C:\\Users\\FuadFaruk\\Desktop\\Codex Projects\\CPUrenderer\\scenes\\fixtures\\author.py\"",
+  "schema_version": 1,
+  "self_checks": [
+    "Actual operator properties and enum values verified before export",
+    "Both actual exporter calls FINISHED",
+    "All six allowed extensions, no other extensions",
+    "GLB embedded PNG and external glTF resources",
+    "Finite nondegenerate indexed triangles, UVs, unit normals/tangents",
+    "Closed, outward water topology and positive signed volume",
+    "Mirrored hierarchical transform and expected world-space frame",
+    "HDR decoded independently by Blender image loader",
+    "Source PNG bytes survive embedding/external export exactly, including independently decoded foliage alpha",
+    "GLB and external glTF decoded geometry/material/node/image semantic digests match"
+  ],
+  "stage": "first_gate_export_only"
+}

@@ -1,0 +1,20 @@
+# CMake build output
+/build/
+/mingw-debug/
+/mingw-release/
+/mingw-profile/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Generated renders and profiling output
+/renders/
+gmon.out
+*.prof
+
+# Compiled binaries and libraries
+*.exe
+*.o
+*.a
